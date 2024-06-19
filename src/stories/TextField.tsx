@@ -1,7 +1,7 @@
 import React from 'react';
 import './TextField.css';
 
-interface TextFieldProps {
+export interface TextFieldProps {
   label: string;
   maxLength?: number;
   minLength?: number;
@@ -24,4 +24,3 @@ const TextField: React.FC<TextFieldProps> = ({ label, maxLength, minLength, plac
 };
 
 export default TextField;
-export type { TextFieldProps };

@@ -13,9 +13,9 @@ const meta = {
     layout: 'fullscreen',
   },
   args: {
-    onLogin: fn(),
-    onLogout: fn(),
-    onCreateAccount: fn(),
+    // onLogin: fn(),
+    // onLogout: fn(),
+    // onCreateAccount: fn(),
   },
 } satisfies Meta<typeof Header>;
 
